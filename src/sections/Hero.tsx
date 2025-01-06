@@ -80,7 +80,7 @@ export const HeroSection = () => {
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
           I transform raw data into actionable insights, intuitive dashboards, and efficient data pipelines. 
-          Let’s discuss your next project.
+          Let&apos;s discuss your next project.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -104,7 +104,7 @@ export const HeroSection = () => {
               });
             }}>
             <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </div>
       </div>

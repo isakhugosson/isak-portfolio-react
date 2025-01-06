@@ -45,7 +45,7 @@ export const ContactSection = () => {
       <SectionHeader 
         eyebrow="Contact Me" 
         title="Say Hello!" 
-        description="Feel free to reach out for a good chat if you think we’d be a great match"
+        description="Feel free to reach out for a good chat if you think we&apos;d be a great match"
       />
       <div className="mt-20 bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left relative overflow-hidden z-0">
         <div 
@@ -56,10 +56,10 @@ export const ContactSection = () => {
                   <div className="md:gap-4 gap-8 items-center">
             <div className="flex flex-col mb-4 md:mb-0">
               <h2 className="font-serif text-2xl md:text-3xl md:px-7 md:mt-6">
-                Let's create something amazing together
+                Let&apos;s create something amazing together
               </h2>
               <p className="max-w-lg text-sm md:text-base mt-2 md:px-7">
-                Ready to bring your next project to life? Let's connect and discuss how I can help you achieve your goals.
+                Ready to bring your next project to life? Let&apos;s connect and discuss how I can help you achieve your goals.
               </p>
             </div>
             <div className="flex w-full">
