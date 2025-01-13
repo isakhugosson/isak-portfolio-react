@@ -2,6 +2,7 @@ import tableauProject from "@/assets/images/Co2 Emission Dashboard.png";
 import pythonCorrelationPage from "@/assets/images/python-correlation.png";
 import sqlCleaningProject from "@/assets/images/SQL-data-cleaning.png";
 import sqlExplorationProject from "@/assets/images/SQL-exploration.png";
+import azureDEproject from "@/assets/images/azure-de-project.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from 'next/image';
@@ -20,6 +21,18 @@ const portfolioProjects = [
     ],
     link: "https://public.tableau.com/app/profile/isak.hugosson/viz/Co2EmissionDashboard_16991278146540/Dashboard1",
     image: tableauProject,
+  },
+  {
+    company: "Azure",
+    year: "Data Engineering",
+    title: "End-to-End Data Engineering on Azure",
+    results: [
+      { title: "Data Orchestration with Azure Data Factory" },
+      { title: "Transformation via Databricks" },
+      { title: "Visualization in PowerBI (WIP)" },
+    ],
+    link: "https://github.com/isakhugosson/azure-data-engineering-olympics/blob/main/README.md",
+    image: azureDEproject,
   },
   {
     company: "Python",
