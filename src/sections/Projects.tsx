@@ -2,7 +2,7 @@ import tableauProject from "@/assets/images/Co2 Emission Dashboard.png";
 import pythonCorrelationPage from "@/assets/images/python-correlation.png";
 import sqlCleaningProject from "@/assets/images/SQL-data-cleaning.png";
 import sqlExplorationProject from "@/assets/images/SQL-exploration.png";
-import azureDEproject from "@/assets/images/azure-de-project.png";
+import powerbiPareto from "@/assets/images/powerbi-pareto.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from 'next/image';
@@ -23,16 +23,16 @@ const portfolioProjects = [
     image: tableauProject,
   },
   {
-    company: "Azure",
-    year: "Data Engineering",
-    title: "End-to-End Data Engineering on Azure",
+    company: "PowerBI",
+    year: "Visualization",
+    title: "PowerBI Dashboard",
     results: [
-      { title: "Data Orchestration with Azure Data Factory" },
-      { title: "Transformation via Databricks" },
-      { title: "Visualization in PowerBI (WIP)" },
+      { title: "Revenue Analysis" },
+      { title: "Pareto graph" },
+      { title: "Dynamic graph & customer list" },
     ],
-    link: "https://github.com/isakhugosson/azure-data-engineering-olympics/blob/main/README.md",
-    image: azureDEproject,
+    link: "https://app.powerbi.com/view?r=eyJrIjoiNWE4MmFiODQtYWJlOC00ZGRiLTlmNDgtYjIxYjY2NzM3ZDViIiwidCI6IjAzYmRmM2UzLWJjNjAtNDE3NC1iOTJlLTg4MGQ3YzIxMmM2YSJ9",
+    image: powerbiPareto,
   },
   {
     company: "Python",
