@@ -28,8 +28,8 @@ const portfolioProjects = [
     title: "PowerBI Dashboard",
     results: [
       { title: "Revenue Analysis" },
-      { title: "Pareto graph" },
-      { title: "Dynamic graph & customer list" },
+      { title: "Pareto Graph" },
+      { title: "Dynamic & User friendly" },
     ],
     link: "https://app.powerbi.com/view?r=eyJrIjoiNWE4MmFiODQtYWJlOC00ZGRiLTlmNDgtYjIxYjY2NzM3ZDViIiwidCI6IjAzYmRmM2UzLWJjNjAtNDE3NC1iOTJlLTg4MGQ3YzIxMmM2YSJ9",
     image: powerbiPareto,
