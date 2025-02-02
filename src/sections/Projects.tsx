@@ -2,7 +2,7 @@ import tableauProject from "@/assets/images/Co2 Emission Dashboard.png";
 import pythonCorrelationPage from "@/assets/images/python-correlation.png";
 import sqlCleaningProject from "@/assets/images/SQL-data-cleaning.png";
 import sqlExplorationProject from "@/assets/images/SQL-exploration.png";
-import powerbiPareto from "@/assets/images/powerbi-pareto.png";
+import powerbiPareto from "@/assets/images/PowerBI-pareto.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from 'next/image';
