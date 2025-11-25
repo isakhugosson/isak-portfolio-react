@@ -13,9 +13,9 @@ import { Card } from "@/components/Card";
 const portfolioProjects = [
 
   {
-    company: "Native-cloud",
+    company: "Cloud-native",
     year: "Engineering",
-    title: "Native-cloud Engineering",
+    title: "Cloud-native Engineering",
     results: [
       { title: "Docker containers" },
       { title: "SQLMesh transformation" },

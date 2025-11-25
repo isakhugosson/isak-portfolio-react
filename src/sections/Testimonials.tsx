@@ -19,12 +19,12 @@ const testimonials = [
     text: `I had the pleasure of being Isak's Line Manager whilst he worked in my team. Isak was great to have in the team, he was curious, smart, delivered results on time and regularly delivered more than expected.\n\nIsak was working in an international environment and built great relationships with colleagues across multiple countries with strong feedback received from them.\n\nI particularly appreciated Isaks approach which was to get involved in as many topics as he could to learn and develop whilst inspiring others to do the same.`,
     avatar: memojiAvatar2,
   },
-  {
-    name: "Veronica Xanthalopus Moitus",
-    position: "Data Analyst @ Swedbank",
-    text: `Coming soon...`,
-    avatar: memojiAvatar3,
-  },
+  // {
+  //   name: "Veronica Xanthalopus Moitus",
+  //   position: "Data Analyst @ Swedbank",
+  //   text: `Coming soon...`,
+  //   avatar: memojiAvatar3,
+  // },
 ];
 
 export const TestimonialsSection = () => {
