@@ -3,6 +3,7 @@ import pythonCorrelationPage from "@/assets/images/python-correlation.png";
 import sqlCleaningProject from "@/assets/images/SQL-data-cleaning.png";
 import sqlExplorationProject from "@/assets/images/SQL-exploration.png";
 import powerbiPareto from "@/assets/images/PowerBI-pareto.png";
+import cloudnative from "@/assets/images/cloud-native.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import Image from 'next/image';
@@ -10,6 +11,20 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+
+  {
+    company: "Native-cloud",
+    year: "Engineering",
+    title: "Native-cloud Engineering",
+    results: [
+      { title: "Docker containers" },
+      { title: "SQLMesh transformation" },
+      { title: "Cube.dev API Semantic layer" },
+    ],
+    link: "https://github.com/isakhugosson/cloud-native-engineering/",
+    image: cloudnative,
+  },
+
   {
     company: "Tableau",
     year: "Visualization",
@@ -22,18 +37,19 @@ const portfolioProjects = [
     link: "https://public.tableau.com/app/profile/isak.hugosson/viz/Co2EmissionDashboard_16991278146540/Dashboard1",
     image: tableauProject,
   },
-  {
-    company: "PowerBI",
-    year: "Visualization",
-    title: "PowerBI Dashboard",
-    results: [
-      { title: "Revenue Analysis" },
-      { title: "Pareto Graph" },
-      { title: "Dynamic & User friendly" },
-    ],
-    link: "https://app.powerbi.com/view?r=eyJrIjoiNWE4MmFiODQtYWJlOC00ZGRiLTlmNDgtYjIxYjY2NzM3ZDViIiwidCI6IjAzYmRmM2UzLWJjNjAtNDE3NC1iOTJlLTg4MGQ3YzIxMmM2YSJ9",
-    image: powerbiPareto,
-  },
+  // {
+  //   company: "PowerBI",
+  //   year: "Visualization",
+  //   title: "PowerBI Dashboard",
+  //   results: [
+  //     { title: "Revenue Analysis" },
+  //     { title: "Pareto Graph" },
+  //     { title: "Dynamic & User friendly" },
+  //   ],
+  //   link: "https://app.powerbi.com/view?r=eyJrIjoiNWE4MmFiODQtYWJlOC00ZGRiLTlmNDgtYjIxYjY2NzM3ZDViIiwidCI6IjAzYmRmM2UzLWJjNjAtNDE3NC1iOTJlLTg4MGQ3YzIxMmM2YSJ9",
+  //   image: powerbiPareto,
+  // },
+
   {
     company: "Python",
     year: "Data Science",
